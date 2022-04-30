@@ -1,0 +1,271 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ body{
+        line-height:1.5;
+ } 
+.hero{
+    background-color: #da332d;
+    background-image: url("../img/imagebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height:100vh; */
+    padding:45px 0;
+    overflow: hidden;
+}
+.logo{
+    margin-bottom: 145px;
+}
+.navbar{
+    margin-bottom: 100px;
+}
+.navbar ul li{
+    display:inline-block;
+    padding:10px;
+}
+.navbar ul li a{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding:10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar ul li a::after{
+    content:'';
+    position:absolute;
+    height: 5px;
+    background-color:#fff;
+    width:0;
+    left:0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+}
+.navbar ul li a:hover::after{
+    width: 100px;
+}
+.cta-info h2{
+    color:#fff;
+    font-size: 52px;
+    /* padding-top: 100px; */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.cta-info p{
+    color:#fff;
+    font-size: 36px;
+    line-height:54px;
+   margin-bottom: 55px;
+}
+.cta-info a{
+    background-color: #282828;
+    font-size: 18px;
+    color:#fff;
+    padding:15px 50px 15px 35px;
+    border-radius: 45px;
+}
+.cta-info a i{
+    font-size: 45px;
+    margin-right: 25px;
+    vertical-align: middle;
+
+}
+.cta-img{
+    position: relative;  
+}
+.cta-img img{
+    position: absolute;
+    right: 0;
+    top:-35px;
+    
+}
+/* -------------------------------------------- app- feature-section start-------------------------------- */
+
+
+.app-features{
+    padding: 85px 0 100px;
+}
+.heading-features h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #8a8a8a;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.heading-features p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #3a3a3a;
+    margin-bottom: 65px;
+}
+.features-info img{
+    margin-bottom: 35px;
+    border-radius: 50%;
+    border:5px solid #fff;
+}
+
+.features-info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464; 
+}
+.features-info h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* -------------------------------------------------- */
+
+.fruit-cake-section{
+    background:#d7dedc url('../img/choke.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding:195px 0 170px;
+
+}
+.fruits-info h2{
+    font-size: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    margin-bottom:60px;
+}
+.fruits-info p{
+    font-size: 24px;
+    font-weight:400;
+    width:60%;
+    color: #585858;
+    margin-bottom: 75px;
+}
+.fruits-info a{
+    color: #d9332d;
+    /* border: 2px solid #fff; */
+    padding:17px 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    /* margin-bottom: 170px; */
+}
+.fruits-info a:hover{
+    color:#fff;
+    background-color:#d9332d ;
+}
+
+/* ----------------footer----------- */
+.footer{
+    background-color: #2e2e38;
+    padding:120px 0 150px;
+    height: 100vh;
+}
+
+.footer-logo img{
+    margin-bottom: 60px;
+}
+.footer-list h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:25px;
+    color:#fff;
+    text-transform: capitalize;
+}
+.footer-list ul li{
+    display: table; 
+    width:100%;
+    clear:both;
+    margin-bottom: 25px;
+ }
+.footer-list ul li div{ 
+    float:left;
+ }  
+ .footer-list ul li .box{
+    width:60px;
+    height:45px;
+    background-color: #d9332d;
+    
+}
+ .footer-list .fruitcake-info{
+    margin:5px 0  0 15px;
+}
+.fruitcake-info p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: capitalize;
+
+} 
+.tweet-list ul li{
+    font-size:15px ;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.tweet-list ul li p{
+    font-size: 11px;
+
+}
+.tweet-list .w-75{
+    width:75%;
+}
+.footer-list .about-info{
+    font-size: 15px;
+    width:75%;
+    font-weight: 400;
+    color:#fff;
+    font-style: italic;
+}
+
+
+
+
+
+
+footer{
+    background-color: #d7dedc;
+    padding:45px 0;
+}
+.footer-info-section p, .social-icon{
+    display:inline-block ;
+}
+.footer-info-section p{
+    border-right: 2px solid #747877;
+    font-size: 25px;
+    color:#000;
+    font-weight: 400;
+    padding-right:30px ;
+    margin-right: 30px;
+}
+.social-icon a{
+    background-color: #415e9e;
+    color:#fff;
+    padding: 7px;
+    width:30px;
+    height:30px;
+    border-radius: 5px;
+    margin-right: 35px;
+    
+    
+}
+.social-icon a:nth-child(2){
+    background-color: #dc3b7b;
+
+}   
+.social-icon a:last-child{
+    background-color: #a8e8eb;
+}
+.social-icon a i{
+    font-size: 20px;
+    
+}
+
